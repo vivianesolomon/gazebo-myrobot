@@ -10,7 +10,8 @@ It contains a two-wheeled robot built in Gazebo's Model Editor, a world that hol
 myrobot/
 ├── model/
 │   ├── robot/        # two-wheeled robot: box chassis + two cylinder wheels on revolute joints
-│   └── building/     # U-shaped brick house: 10 m x 10 m, 2.5 m wide wings, one door, two windows
+│   ├── building/     # U-shaped brick house: 10 m x 10 m, 2.5 m wide wings, one door, two windows
+│   └── vehicle/      # Gazebo "Model Editor" tutorial vehicle: chassis, two front wheels, caster, depth camera, follower plugin
 ├── world/
 │   └── myworld       # empty world + the robot + the hello plugin
 ├── script/
