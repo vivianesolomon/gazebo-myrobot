@@ -2,7 +2,7 @@
 
 My work for the **Gazebo Basics** lesson of Udacity's Robotics Software Engineer Nanodegree (Course 2: Gazebo World).
 
-It contains a two-wheeled robot model, a world that holds it, a world plugin that prints `Hello World!`, and a house for the robot.
+It contains a two-wheeled robot built in Gazebo's Model Editor, a world that holds it, a world plugin that prints `Hello World!`, and a house for the robot designed in the Building Editor.
 
 ## Layout
 
@@ -10,7 +10,7 @@ It contains a two-wheeled robot model, a world that holds it, a world plugin tha
 myrobot/
 ├── model/
 │   ├── robot/        # two-wheeled robot: box chassis + two cylinder wheels on revolute joints
-│   └── building/     # U-shaped house: 10 m x 10 m, 2.5 m wide wings, one door, four windows
+│   └── building/     # U-shaped brick house: 10 m x 10 m, 2.5 m wide wings, one door, two windows
 ├── world/
 │   └── myworld       # empty world + the robot + the hello plugin
 ├── script/
